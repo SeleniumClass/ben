@@ -22,11 +22,11 @@ package homework;
 			driver.get("http://www.gcrit.com/build3");
 			
 						
-			PageFactoryGcrLogin btn = new PageFactoryGcrLogin(driver);
+		//	PageFactoryGcrLogin obj = PageFactoryGcrLogin.in
 			
 		
 			
-			btn.getMyAccount().click();
+		/*	btn.getMyAccount().click();
 			btn.getEmailId().sendKeys("miqbalkhan41@yahoo.com");
 			Thread.sleep(3000);
 			btn.getPassword().sendKeys("12345");
@@ -47,8 +47,9 @@ package homework;
 		}
 		
 		
-		
+		*/
 
+	}
 	}
 
 

@@ -14,11 +14,10 @@ import org.openqa.selenium.WebElement;
 	public class PageFactoryGcrLogin {
 		
 		WebDriver driver; 
-		public PageFactoryGcrLogin(WebDriver driver) {
-			
-		this.driver = driver;	
-	
 		
+		
+		public PageFactoryGcrLogin(WebDriver driver) {
+		this.driver = driver;		
 		PageFactoryGcrLogin.initElements(driver, this);
 		
 		}

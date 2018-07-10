@@ -1,14 +1,28 @@
-package com.pagefactor;
+/*package com.pagefactor;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-/**
+import com.pagefactory.PageFactory;
+
+*//**
  * @author benmj
  *
- */
+ *//*
 public class LoginPageFactory {
+	
+	WebDriver driver;
+	
+	 public LoginPageFactory(WebDriver driver) {
+		 
+		 this.driver = driver;
+		 //PageFactory.initElements(driver, this);
+		// PageFactory.initElements(driver, this);
+		PageFactory.this
+		 
+	}
 	
 	
 	
@@ -74,4 +88,4 @@ public class LoginPageFactory {
 	
 
 
-}
+}*/
